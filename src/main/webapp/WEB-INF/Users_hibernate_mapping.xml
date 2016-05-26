@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.Login.model.User" table="users">
+
+        <!-- Login Column -->
+        <id name="userLogin" type="string">
+            <column name="login" length="16" unique="true" not-null="true" />
+            <generator class="assigned"/>
+        </id>
+        <!--Id column -->
+        <property name="id" type="integer">
+            <column name="id" length="16"/>
+        </property>
+
+        <!--Password column -->
+        <property name="userPassword" type="string">
+            <column name="password" length="128" not-null="true" />
+        </property>
+        <!--Full Name column -->
+        <property name="userFullName" type="string">
+            <column name="fullName" length="64" not-null="true" />
+        </property>
+        <!--Email column -->
+        <property name="userEmail" type="string">
+            <column name="email" length="64" unique="true" not-null="true" />
+        </property>
+
+    </class>
+
+</hibernate-mapping>
