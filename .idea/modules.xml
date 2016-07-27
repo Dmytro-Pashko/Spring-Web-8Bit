@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Web.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Web_main.iml" group="Spring-Web" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Web_test.iml" group="Spring-Web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Sombra-Shop.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Sombra-Shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Sombra-Shop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Sombra-Shop_main.iml" group="Spring-Sombra-Shop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Sombra-Shop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Sombra-Shop_test.iml" group="Spring-Sombra-Shop" />
     </modules>
   </component>
 </project>

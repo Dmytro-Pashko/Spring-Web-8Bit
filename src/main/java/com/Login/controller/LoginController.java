@@ -35,7 +35,16 @@ public class LoginController
         ModelAndView modelAndView = new ModelAndView();
         logger.info(userLogin.getUserlogin());
         logger.info(userLogin.getPassword());
-        if (loginService.validateUser(userLogin))
+
+        //login and password not fill.
+        if (userLogin.getUserlogin().isEmpty() || userLogin.getPassword().isEmpty())
+        {
+            modelAndView.setViewName("index");
+            modelAndView.addObject("message","Please fill login and password.");
+            return modelAndView;
+        }
+        //Validate user.
+        else if (loginService.validateUser(userLogin))
         {
             modelAndView.setViewName("home");
             return modelAndView;

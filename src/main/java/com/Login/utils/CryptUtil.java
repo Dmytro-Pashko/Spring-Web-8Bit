@@ -5,7 +5,7 @@ import org.springframework.security.core.token.Sha512DigestUtils;
 import java.nio.charset.StandardCharsets;
 
 /**
- * Created by Goodvin1709 on 14.05.2016.
+ * Utill for CryptPassword(SHA512)
  */
 public class CryptUtil {
 

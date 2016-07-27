@@ -19,6 +19,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Spring-Sombra-Shop_main" target="1.7" />
+      <module name="Spring-Sombra-Shop_test" target="1.7" />
+      <module name="Spring-Web-8Bit_main" target="1.7" />
+      <module name="Spring-Web-8Bit_test" target="1.7" />
       <module name="Spring-Web_-_копия_main" target="1.8" />
       <module name="Spring-Web_-_копия_test" target="1.8" />
       <module name="Spring-Web_main" target="1.8" />
